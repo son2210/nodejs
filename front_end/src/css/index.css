@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    padding:0px;
+    margin:auto
+}
+.category{
+    padding:0px;
+}
+/* open web site */
+.header-website{
+    background:red;
+    padding-top: 12px;
+}
+
+.preamble{
+    padding: 2px 0px;
+}
+.preamble h3{
+    color:white;
+    font-size:20px
+}
+.preamble h3 a{
+    color: white;
+    margin: 0px 2px;
+    text-decoration:none
+}
+.header-website-left{
+    text-align:left
+}
+.header-website-right{
+    text-align:right
+}
+/* menu-user */
+.menu-user{
+    list-style: none;
+    margin-right: 15px;
+}
+.menu-user li{
+    display:inline-table;
+    color: white; 
+    position: relative;
+}
+.menu-user li a{
+    color: white;
+    text-decoration: none;
+}
+.menu-user li:hover .sub-menu-user{
+    display:block;
+}
+.sub-menu-user{
+    display: none;
+    position: absolute;
+    background-color:red;
+    width: 150px;
+    text-align: center;
+    z-index: 1000;
+    left: -9%;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.sub-menu-user li{
+    padding:3px 0px;
+    width: 100%;
+}
+/* logo form giỏ hàng   */
+.header-website-content{
+    height: 5em;
+    /* background: violet; */
+    padding: 17px 0px 20px 0px;
+    line-height: 0.5em;
+    max-height: 5em;
+    /* border-bottom: 1px solid black; */
+}
+.logo{
+    text-align:left;
+    /* padding: 0px; */
+}
+.logo img{
+    width: 23%;
+    margin:0px;
+    float: left;
+}
+.logo h3{
+    font-size:20px;
+    padding:0em 0px 0px 3em;
+    color:red;
+}
+.logo h3 b{
+    font-size: 25px;
+}
+.logo h3 b a{
+    text-decoration: none;
+    color:red
+}
+.logo h3 span{
+    font-size: 10px;
+    text-align: center;
+    margin: 5px 0px 0px 10px ;
+    float: left;
+}
+/* form seacrh  */
+.search{
+    width: 100%;
+}
+.form-search{
+    position: relative;
+}
+.form-search input{
+    width: 100%;
+    padding: 3px 0px 5px 3px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    box-shadow: 1px 1px 5px -1px  black;
+}
+.form-search button{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    font-size: 18px;
+    background: red;
+    padding: 2px 11px;
+    border: none;
+    outline: none;
+    border-radius:3px;
+    margin-right: 0.5px;
+}
+/*  giỏ hàng  */
+.cart h3{
+    font-size:16px;
+    float: left;
+    margin-right: 13px;
+    margin-top: 8px;
+}
+.cart h3 a{
+    text-decoration:none;
+    color:black;
+}
+.cart button{
+    color:rgb(224, 84, 84);
+    border:none;
+    outline: none;
+    font-size:30px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px -1px red;
+}
+.hr{
+    margin-top:12px;
+    margin-bottom: 0.5em;
+}
+/* menu  */
+.header-website-bottom{
+    height: 2.3em;
+    /* background:violet; */
+    padding: 0px;
+}
+.menu-header{
+    padding: 0px;
+}
+.active{
+    color:  black;
+}
+.menu{
+    list-style: none;
+}
+.menu li {
+    display: inline-table;
+    padding: 0px 20px 0px 0px;
+    position: relative; 
+}
+.menu li a{
+    text-decoration: none;
+    color: red;
+    font-weight:650;
+    font-size:20px
+}
+.menu li::before{
+    content:'';
+    position: absolute;
+    z-index: 100;
+    width: 0%;
+    height: 1.5px;
+    bottom:1%;
+    color:yellowl;
+    background-color:yellow;
+    display:none;
+   
+}
+.menu li:hover::before{
+    display:block;
+    width: 85%;
+    transform: 2s
+}
+/* banner */
+.banner-website{
+    padding:0px;
+}
+.banner img{
+    width: 100%;
+    height: 28em;
+    margin-bottom: 2em;
+}
+/*  main content  */
+.content-main{
+    margin-top:15px;
+    margin-bottom: 28px;
+    padding: 0px;
+}
+.nameSpecie{
+    margin: 0px 0px 1em 0px;
+    text-align: center;
+}
+.product-new img{
+        width: 100%;
+        padding:0px;
+        height: 14em;
+}
+
+.content-product-new{
+    padding:10px 5px 5px 10px;
+}
+.cate-product-new{
+        font-size: 19px;
+        font-weight:600;
+        color:yellowgreen;
+}
+.name-product-new a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size:17px;
+}
+/* item page  */
+.itempage{
+    display: grid;
+    grid-template-columns: 18% 80%;
+    grid-gap: 2%;
+}
+
+.titel-category{
+    background-color:  red;
+    padding: 5px;
+    color:#ffffff;
+    margin:0px;
+}
+.menu-category {
+    list-style: none;
+}
+.menu-category li{
+    padding:0px 0px 3px 4px;
+    line-height: 1.5em;
+}
+.menu-category  li:hover{
+    background:red;
+    color:  white;
+}
+.menu-category  li:hover a{
+    color:white;
+}
+.menu-category  li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 550;
+    color:black;
+    display:block;
+} 
+/* tiltel */
+.nameSpecie{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.list-product{
+    margin-top: -10px;
+}
+.product{
+    box-shadow: 1px 1px 5px 1px rgb(172, 167, 167);
+    padding: 5px 5px 10px 5px ;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 0px 1.6em 0px;
+}
+.product img{
+    width: 100%;
+    height: 11.5em;
+    border :none;
+    outline: none;
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product img:hover{
+    transform: scale(1.1);
+    transition:2s
+}
+.product a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+    font-size:20px;
+}
+p.name-product {
+    margin-top:15px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p.name-product a{
+    text-decoration:none;
+    color: black;
+}
+p.price-product{
+    margin-top:-15px;
+   
+}
+p.price-product a{
+    font-size: 15px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.btn-primar{
+    background:red;
+    position: relative;
+    color:white;
+    font-size:14px
+}
+.btn-primar:hover{
+   color:white;
+}
+.btn-primar::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #d8d5cb6e;
+    top:0%;
+    left: 0%;
+    bottom: 0%;
+    color: black
+}
+.btn-primar:hover::before{
+    width: 100%;
+    transition:0.8s;
+    color:wheat;
+}
+/* tìm kiếm bằng giá  */
+.seach-price{
+    float: left;
+    margin-right: 15px;
+    padding: 0px 0px;
+    /* margin:auto; */
+}
+.seach-price label{
+    font-size:14px;
+    font-weight: 630;
+    margin-top: 10px;
+}
+.seach-price  input{
+   width: 13px;
+   height: 15px;
+}
+/*  detail product */
+.detail .row .col-6 img{
+    width:30em;
+    height: 25em;
+}
+.detailProduct{
+    margin-top:40px
+}
+.detailProduct .row .col-6 img{
+        width: 70%;
+        height: 27em; 
+}
+.detailProduct .row{
+    text-align:center
+}
+#org{
+    font-size:18px;
+    font-weight:450;
+}
+.menu-regrim{
+    list-style:decimal;
+    margin-top: 15px;
+}
+.menu-regrim li{
+    padding:5px 0px;
+    font-weight: 400;
+    font-size:20px
+}
+.detailCharacteristic{
+   padding-left: 20px;
+}
+.detailCharacteristic img{
+    width: 70%;
+    height: 29em;
+    margin:5px 0px;
+}
+.imageDetail{
+    text-align:center
+}
+/*  end product detail */
+/*  footer */
+.footer{
+    background-color:red;
+    height: 20em;
+    clear: both;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+.title-footer{
+    font-size:15px;
+    color:white;
+}
+.title-footer ~ span{
+    font-size:17px;
+    padding: 3px 5px;
+    border-radius:5px;
+     background-color:rgb(218, 218, 162);
+    box-shadow: 1px 1px 5px -1px yellowgreen;
+
+}
+.menu-support{
+    margin-left: 10px;
+}
+
+.menu-support li a{
+    color:black;
+    font-size:16px;
+    text-decoration:none;
+}
+/* from  bình luận  */
+.form-comment{
+    width: 100%;
+    position: relative;
+    text-align:center;
+}
+.form-comment input{
+    width: 100%;
+    border-radius:10px;
+    outline: none;
+    border : 1px solid  black;
+    padding:3px 5px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.form-comment button{
+    position:absolute;
+    z-index: 1;
+    top: 4%;
+    right: 0.2%;
+    font-size:px;
+    background-color:white;
+    border:none;
+    padding: 0px 5px;
+    border-radius:10px;
+    outline: none;
+}
+.coment b{
+    font-size:15px
+}
+.coment p{
+    font-size:12px;
+    margin-left:  20px;
+}
+.governance{
+    background-color :black;
+    font-size:8px;
+    color:  yellow;
+    padding: 1px 5px;
+    border-radius: 10px;
+}
+
+/* bản đồ  */
+.map{
+    width: 100%;
+}
+/* cart  */
+.result-cart{
+    text-align:center;  
+}
+.result-cart h3{
+    font-size:20px;
+}
+.result-cart a{
+    text-decoration:none;
+    color:black;
+}

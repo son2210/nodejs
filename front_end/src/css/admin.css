@@ -1,0 +1,163 @@
+.bluer{
+    position : absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.err{
+    border : 2px solid red !important;
+}
+.admin{
+    display: grid;
+    grid-template-columns:15% 85%;
+    position: relative;
+}
+.category {
+    padding-top: 15px;
+    position: flex;
+    background-color:rgb(59, 52, 52);
+    left: 0%;
+    top: 0%;
+    /* height: 150%; */
+    min-height: 100vh;
+    text-align: center;
+    color:white;
+}
+.menu-admin {
+    list-style: none;
+    padding:0px
+}
+.menu-admin li{
+    padding: 5px;
+    font-size:20px;
+}
+.menu-admin li:hover{
+    background-color:red;
+    border-radius:5px
+}
+.menu-admin li:hover a{
+    color:white;
+}
+.menu-admin li a{
+    text-decoration:none;
+    color : rgb(210, 201, 211);
+    font-size: 25px;
+}
+.list{
+    background-color:white
+}
+.title{
+    /* height: 30px; */
+    width: 100%;
+    background-color:rgb(88, 82, 82);
+    color : white;
+    text-align: Center;
+    padding: 15px 0px;
+}
+.title a{
+    float:right;
+    margin-right: 20px;
+    font-size: 50px;
+    padding:0px;
+    line-height:19px;
+    position: relative;
+    color :rgb(47, 253, 6);
+      text-decoration:none; 
+}
+.title a:hover{
+    text-decoration:none; 
+    color :rgb(47, 253, 6);
+}
+.title a:hover::before{
+    display:block;
+}
+.title a:before{
+    content:'Thêm';
+    position:absolute;
+    top: 120%;
+    font-size:14px;
+    display:none;
+    color : white
+}
+.table{
+    text-align:center;
+    margin-top: -8px;
+    align-items: center;
+    justify-content: center;
+    /* border : 2px solid rgb(8, 0, 0) */
+}
+.stt{
+    width: 5%;
+}
+.table img{
+    width: 39%;
+    height: 5em;
+}
+.icon{
+    outline: none;
+    border: none;
+    background : white
+}
+.repair a{
+    color:rgb(26, 255, 19);
+}
+.image{
+    max-width: 2%;
+    width: 20%;
+}
+.delete{
+    color:red
+}
+.from{
+    margin-top: 20px;
+    text-align: center;
+}
+.from-grup {
+    width: 100%;
+}
+.from-grup input{
+    width: 30%;
+    margin: 10px;
+    padding: 2px 0px 2px 5px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    box-shadow: 1.2px 0.1px 5.4px 0px #847c7c;
+    border-radius: 10px;
+}
+.from-grup textarea{
+    margin-left: 47px;
+    border-radius:10px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 1.2px 0.1px 5.4px 0px #847c7c;
+    outline:  none;
+    padding:3px 0px 3px 5px;
+}
+#radio{
+    width: 20px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    margin-left: 0px;
+}
+
+.addProduct{
+    margin-top:10px
+}
+
+.chon{
+    width: 30%;
+    margin: 10px;
+    font-size:15px;
+    border-radius:10px;
+    border:none;
+    outline: none;
+    padding: 2px 0px 5px 3px;
+}
+#email{
+    margin-left: 15px;
+}
